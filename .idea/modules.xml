@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/parser-father.iml" filepath="$PROJECT_DIR$/.idea/parser-father.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../express-typescript-boilerplate/.idea/express-typescript-boilerplate.iml" filepath="$PROJECT_DIR$/../express-typescript-boilerplate/.idea/express-typescript-boilerplate.iml" />
     </modules>
   </component>
 </project>

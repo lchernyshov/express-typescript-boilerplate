@@ -19,13 +19,13 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {
-  logger(`err: ${err}`);
+  logger.err(`err: ${err}`);
   res.status(500);
   res.json({ success: false, error: err.message || err });
 });
 
 app.listen(GLOBAL_CONFIG.PORT, () => {
-  console.log(
+  logger.log(
     `⚡️[server]: Server is running at https://localhost:${GLOBAL_CONFIG.PORT}`
   );
 });
